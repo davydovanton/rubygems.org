@@ -1,0 +1,175 @@
+ru:
+  title: "RubyGems.org"
+  subtitle: "your community gem host"
+  help_url: "http://help.rubygems.org"
+  please_sign_up: "Доступ запрещен. Пожалуйста, войдите в ваш аккаунт на https://rubygems.org"
+  feed_subscribed: "RubyGems.org | Гемы на которые вы подписаны"
+  feed_latest: "RubyGems.org | Недавние Гемы"
+  time_ago: "%{duration} назад"
+  form_disable_with: "Пожалуйста, подождите..."
+  update: "Обновить"
+  edit: "Изменить"
+  sign_in: "Войти"
+  sign_up: "Зарегестрироваться"
+  footer_about: "RubyGems.org это общественный руби гем хостинг сервис. Как можно скорее опубликуйте Ваш гем и устанавливайте его. Используйте API для взаимодействия и поиска большей информации о доступных гемах. Станьте контрибьютером и улучшайте сайт своими изменениями."
+  locale_name: "Русская"
+  this_rubygem_could_not_be_found: "Этот руби гем не может быть найден."
+
+  dashboards:
+    show:
+      latest: "Последние Обновления"
+      latest_title: "Последние Обновления RSS"
+      no_subscriptions: "Вы ещё не подписаны ни на один гем. Перейдите по %{gem_link} для того, что бы подписаться на него!"
+      gem_link_text: "страница гема"
+      mine: "Мои Гемы"
+      no_owned: "Вы еще не опубликовали ни одного гема. Возможно вам нужно прочитать руководство по %{creating_link} гемов или %{migrating_link} гем с RubyForge."
+      creating_link_text: 'созданию'
+      migrating_link_text: 'переслать'
+      my_subscriptions: 'Следить за обновлениями'
+
+  home:
+    index:
+      downloads_counting: 'скачано &amp; раз'
+      find_blurb: "Найти, установить, и опубликовать RubyGems."
+      learn:
+        install_rubygems: "Установить RubyGems"
+
+  layouts:
+    application:
+      header:
+        dashboard: "Панель управления"
+        sign_in: "Войти"
+        sign_up: "Зарегестрироваться"
+        sign_out: "Выйти"
+        search_gem: "Поиск гема&hellip;"
+      footer:
+        status: "Статус"
+        uptime: "Uptime"
+        source_code: "Код"
+        data: "Дата"
+        discussion_forum: "Обсудить"
+        statistics: "Статистика"
+        blog: "Блог"
+        about: "О авторе"
+        help: "Помощь"
+        api: "API"
+        guides: "Руководство"
+        contribute: "Внести вклад"
+        supported_by: "Поддерживается"
+        hosted_by: "Размещено с помощью"
+        designed_by: "Дизай разработан"
+        resolved_with: "Resolved with"
+        optimized_by: "Оптимизировано с помощью"
+        tracking_by: "Отслеживается с помощью"
+        monitored_by: "Мониториться с помощью"
+        gems_served_by: "Гемы обслуживаются с помощью"
+
+  pages:
+    about:
+      title: "О нас"
+      purpose:
+        header: "Welcome to %{site}, the Ruby community's gem hosting service. The purpose of this project is three-fold:"
+        better_api: Provide a better API for dealing with gems
+        transparent_pages: Create more transparent and accessible project pages
+        enable_community: Enable the community to improve and enhance the site
+      founding: "The project was started in April 2009 by %{founder}, and has since grown to include the contributions of over %{contributors} and %{downloads}. As of the RubyGems 1.3.6 release, the site has been renamed to %{title} from Gemcutter to solidify the site's central role in the Ruby community."
+      support: "Although Gemcutter is not run by one specific company, plenty have helped us out so far. The current design, illustrations, and front-end development of this site were created by %{dockyard}. %{github} has also been invaluable for helping us collaborate and share code easily. The site started on %{heroku}, whose great service helped prove Gemcutter as a viable solution that the whole community could rely on."
+      technical: "Some insights into the technical aspects of the site: It's 100% Ruby. The main site is a %{rails} application, and the RubyGem serving is done through %{sinatra}. Gems are hosted on %{s3}, and the time between publishing a new gem and having it ready for installation is minimal. For more info, %{source_code}, which is %{license} over at GitHub."
+
+  passwords:
+    edit:
+      title: "Сбросить пароль"
+      submit: "Сохнарить этот пароль"
+    new:
+      title: "Изменить Ваш пароль"
+      will_email_notice: "Мы отправим вам письмо с сылкод для смены Вашего пароля"
+      submit: "Сбросить пароль"
+
+  profiles:
+    edit:
+      title: "Изменить профиль"
+      hide_email: "Скрыть почтовый адрес в публичном профиле"
+      reset_password:
+        title: "Сбросить пароль"
+        text: "Нужен новый пароль? Не проблема. %{link}"
+        link_text: Request a new one here.
+      api_access:
+        title: "Доступ к API"
+        key_is: "Ваш API ключ - %{key}."
+        credentials: "If you want to use %{gem_commands_link} from the command line, you'll need a %{gem_credentials_file} file, which you can generate using the following command:"
+        link_text: "комманды гема"
+        reset: "Сбросить мой API ключ"
+        confirm_reset: "Вы уверены? Это действие нельзя отменить."
+
+  rubygems:
+    dependencies:
+      header: "%{title} Зависимости"
+    edit:
+      title: "Изменить ссылки"
+      subtitle: "for %{gem}"
+      other_fields_notice: All other fields can only be edited by pushing an updated version of your gem.
+    index:
+      title: 'Гемы'
+    show:
+      not_hosted_notice: "Этот гем на данный момент не находится на Gemcutter."
+      install: "установить"
+      yanked_notice: "This gem has been yanked, and it is not available for download directly or for other gems that may have depended on it."
+      authors_header: "Авторы"
+      downloads_for_this_version: "Для этой версии"
+      owners_header: "Владелец"
+      links:
+        header: "Ссылка"
+        home: "Домашняя страница"
+        code: "Исходный код"
+        docs: "Документация"
+        wiki: "Wiki"
+        mail: "Список почтовой рассылки"
+        bugs: "Баг трекер"
+      versions_header: "Версия"
+      bundler_header: "Gemfile"
+      show_all_versions: "Показать все версии (%{count} всего)"
+      licenses_header: "Лицензия"
+      no_licenses: "N/A"
+      requirements_header: "Требования"
+
+  searches:
+    show:
+      subtitle: "для %{query}"
+      exact_match: Exact match
+
+  sessions:
+    new:
+      forgot_password: "Забыли пороль?"
+
+  stats:
+    show:
+      total_downloads: "Общее число загрузок"
+
+  users:
+    new:
+      have_account: "У Вас уже есть аккаунт?"
+
+  versions:
+    index:
+      title: "All versions of %{name}"
+      versions_since: "%{count} versions since %{since}"
+      not_hosted_notice: This gem is not currently hosted on Gemcutter.
+    version:
+      yanked: "yanked"
+
+  activerecord:
+    attributes:
+      user:
+        avatar: "Аватар"
+        email: "Почтовый адрес"
+        handle: "Handle"
+        password: "Пароль"
+      linkset:
+        bugs: "Ссыдка на баг трекер"
+        code: "Ссыдка на исходный код"
+        docs: "Ссыдка на документацию"
+        mail: "Ссылка на почтовую рассылку"
+        wiki: "Ссылка на Wiki"
+      session:
+        who: "Email or Handle"
+        password: "Пароль"
